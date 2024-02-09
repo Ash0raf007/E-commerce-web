@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="header-top">
+    
+          <div class="container">
+    
+            <ul class="header-social-container">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+            <div class="header-alert-news">
+              <p>
+                <b>Free Shipping</b>
+                This Week Order Over - $55
+              </p>
+            </div>
+    
+            <div class="header-top-actions">
+              <button class="toggleDarkMode" id = 'changeColors'>Dark Mode</button>
+              
+    
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="header-main">
+    
+          <div class="container">
+    
+            <a href="#" class="header-logo">
+              <img src="./assets/images/logo/logo1.svg" alt="Anon's logo" width="120" height="36">
+            </a>
+    
+            <div class="header-search-container">
+    
+              <input type="search" name="search" class="search-field" id="searchField" placeholder="Enter your product name...">
+    
+              <button class="search-btn">
+                <ion-icon name="search-outline" role="img" class="md hydrated" aria-label="search outline"></ion-icon>
+              </button>
+    
+            </div>
+    
+            <div class="header-user-actions">
+    
+              <button class="action-btn">
+                <ion-icon name="person-outline" role="img" class="md hydrated" aria-label="person outline"></ion-icon>
+              </button>
+    
+              <button class="action-btn">
+                <ion-icon name="heart-outline" role="img" class="md hydrated" aria-label="heart outline"></ion-icon>
+                <!-- <span class="count">0</span> -->
+              </button>
+    
+              <a href="./card.html"><button class="action-btn">
+                <ion-icon name="bag-handle-outline" role="img" class="md hydrated" aria-label="bag handle outline"></ion-icon>
+                <span class="count">0</span>
+              </button></a>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <nav class="desktop-navigation-menu">
+    
+          <div class="container">
+    
+            <ul class="desktop-menu-category-list">
+    
+              <li class="menu-category">
+                <a href="./index.html" class="menu-title">Home</a>
+              </li>
+    
+              
+    
+            </ul>
+    
+          </div>
+    
+        </nav>
+    
+        <div class="mobile-bottom-navigation">
+    
+          <button class="action-btn" data-mobile-menu-open-btn="">
+            <ion-icon name="menu-outline" role="img" class="md hydrated" aria-label="menu outline"></ion-icon>
+          </button>
+    
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline" role="img" class="md hydrated" aria-label="bag handle outline"></ion-icon>
+    
+            <span class="count">0</span>
+          </button>
+    
+          <button class="action-btn">
+            <ion-icon name="home-outline" role="img" class="md hydrated" aria-label="home outline"></ion-icon>
+          </button>
+    
+          <button class="action-btn">
+            <ion-icon name="heart-outline" role="img" class="md hydrated" aria-label="heart outline"></ion-icon>
+    
+            <span class="count">0</span>
+          </button>
+    
+          <button class="action-btn" data-mobile-menu-open-btn="">
+            <ion-icon name="grid-outline" role="img" class="md hydrated" aria-label="grid outline"></ion-icon>
+          </button>
+    
+        </div>
+    
+        <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu="">
+    
+          <div class="menu-top">
+            <h2 class="menu-title">Menu</h2>
+    
+            <button class="menu-close-btn" data-mobile-menu-close-btn="">
+              <ion-icon name="close-outline" role="img" class="md hydrated" aria-label="close outline"></ion-icon>
+            </button>
+          </div>
+    
+          <ul class="mobile-menu-category-list">
+    
+            <li class="menu-category">
+              <a href="./index.html" class="menu-title">Home</a>
+            </li>
+    
+            <li class="menu-category">
+    
+              <button class="accordion-menu" data-accordion-btn="">
+                <p class="menu-title">Men's</p>
+    
+                <div>
+                  <ion-icon name="add-outline" class="add-icon md hydrated" role="img" aria-label="add outline"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon md hydrated" role="img" aria-label="remove outline"></ion-icon>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion="">
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Shirt</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Shorts &amp; Jeans</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Safety Shoes</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Wallet</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+    
+              <button class="accordion-menu" data-accordion-btn="">
+                <p class="menu-title">Women's</p>
+    
+                <div>
+                  <ion-icon name="add-outline" class="add-icon md hydrated" role="img" aria-label="add outline"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon md hydrated" role="img" aria-label="remove outline"></ion-icon>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion="">
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Dress &amp; Frock</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Earrings</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Necklace</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Makeup Kit</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+    
+              <button class="accordion-menu" data-accordion-btn="">
+                <p class="menu-title">Jewelry</p>
+    
+                <div>
+                  <ion-icon name="add-outline" class="add-icon md hydrated" role="img" aria-label="add outline"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon md hydrated" role="img" aria-label="remove outline"></ion-icon>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion="">
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Earrings</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Couple Rings</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Necklace</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Bracelets</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+    
+              <button class="accordion-menu" data-accordion-btn="">
+                <p class="menu-title">Perfume</p>
+    
+                <div>
+                  <ion-icon name="add-outline" class="add-icon md hydrated" role="img" aria-label="add outline"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon md hydrated" role="img" aria-label="remove outline"></ion-icon>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion="">
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Clothes Perfume</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Deodorant</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Flower Fragrance</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Air Freshener</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+              <a href="#" class="menu-title">Blog</a>
+            </li>
+    
+            <li class="menu-category">
+              <a href="#" class="menu-title">Hot Offers</a>
+            </li>
+    
+          </ul>
+    
+          <div class="menu-bottom">
+    
+            <ul class="menu-category-list">
+    
+              <li class="menu-category">
+    
+                <button class="accordion-menu" data-accordion-btn="">
+                  <p class="menu-title">Language</p>
+    
+                  <ion-icon name="caret-back-outline" class="caret-back md hydrated" role="img" aria-label="caret back outline"></ion-icon>
+                </button>
+    
+                <ul class="submenu-category-list" data-accordion="">
+    
+                  <li class="submenu-category">
+                    <a href="#" class="submenu-title">English</a>
+                  </li>
+    
+                  <li class="submenu-category">
+                    <a href="#" class="submenu-title">Español</a>
+                  </li>
+    
+                  <li class="submenu-category">
+                    <a href="#" class="submenu-title">Frençh</a>
+                  </li>
+    
+                </ul>
+    
+              </li>
+    
+              <li class="menu-category">
+                <button class="accordion-menu" data-accordion-btn="">
+                  <p class="menu-title">Currency</p>
+                  <ion-icon name="caret-back-outline" class="caret-back md hydrated" role="img" aria-label="caret back outline"></ion-icon>
+                </button>
+    
+                
+              </li>
+    
+            </ul>
+    
+            <ul class="menu-social-container">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+        </nav>
+    
+      </header>
+    <main>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Feel free to get in touch with any inquiries.</p>
+        <form id="contactForm">
+            <div>
+              <label for="fullName">Full Name:</label>
+              <input type="text" id="fullName" name="fullName" required>
+              <span class="error" id="fullNameError"></span>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error" id="emailError"></span>
+            </div>
+            <div>
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+              <span class="error" id="phoneError"></span>
+            </div>
+            <button type="button" id="contactButton">Contact Us</button>
+          </form>
+    </section>
+</main>
+    <footer>
+
+        <div class="footer-category">
+    
+          <div class="container">
+    
+            <h2 class="footer-category-title">Brand directory</h2>
+    
+            <div class="footer-category-box">
+    
+              <h3 class="category-box-title">Fashion :</h3>
+    
+              <a href="#" class="footer-category-link">T-shirt</a>
+              <a href="#" class="footer-category-link">Shirts</a>
+              <a href="#" class="footer-category-link">shorts &amp; jeans</a>
+              <a href="#" class="footer-category-link">jacket</a>
+              <a href="#" class="footer-category-link">dress &amp; frock</a>
+              <a href="#" class="footer-category-link">innerwear</a>
+              <a href="#" class="footer-category-link">hosiery</a>
+    
+            </div>
+    
+            <div class="footer-category-box">
+              <h3 class="category-box-title">footwear :</h3>
+            
+              <a href="#" class="footer-category-link">sport</a>
+              <a href="#" class="footer-category-link">formal</a>
+              <a href="#" class="footer-category-link">Boots</a>
+              <a href="#" class="footer-category-link">casual</a>
+              <a href="#" class="footer-category-link">cowboy shoes</a>
+              <a href="#" class="footer-category-link">safety shoes</a>
+              <a href="#" class="footer-category-link">Party wear shoes</a>
+              <a href="#" class="footer-category-link">Branded</a>
+              <a href="#" class="footer-category-link">Firstcopy</a>
+              <a href="#" class="footer-category-link">Long shoes</a>
+            </div>
+    
+            <div class="footer-category-box">
+              <h3 class="category-box-title">jewellery :</h3>
+            
+              <a href="#" class="footer-category-link">Necklace</a>
+              <a href="#" class="footer-category-link">Earrings</a>
+              <a href="#" class="footer-category-link">Couple rings</a>
+              <a href="#" class="footer-category-link">Pendants</a>
+              <a href="#" class="footer-category-link">Crystal</a>
+              <a href="#" class="footer-category-link">Bangles</a>
+              <a href="#" class="footer-category-link">bracelets</a>
+              <a href="#" class="footer-category-link">nosepin</a>
+              <a href="#" class="footer-category-link">chain</a>
+              <a href="#" class="footer-category-link">Earrings</a>
+              <a href="#" class="footer-category-link">Couple rings</a>
+            </div>
+    
+            <div class="footer-category-box">
+              <h3 class="category-box-title">cosmetics :</h3>
+            
+              <a href="#" class="footer-category-link">Shampoo</a>
+              <a href="#" class="footer-category-link">Bodywash</a>
+              <a href="#" class="footer-category-link">Facewash</a>
+              <a href="#" class="footer-category-link">makeup kit</a>
+              <a href="#" class="footer-category-link">liner</a>
+              <a href="#" class="footer-category-link">lipstick</a>
+              <a href="#" class="footer-category-link">prefume</a>
+              <a href="#" class="footer-category-link">Body soap</a>
+              <a href="#" class="footer-category-link">scrub</a>
+              <a href="#" class="footer-category-link">hair gel</a>
+              <a href="#" class="footer-category-link">hair colors</a>
+              <a href="#" class="footer-category-link">hair dye</a>
+              <a href="#" class="footer-category-link">sunscreen</a>
+              <a href="#" class="footer-category-link">skin loson</a>
+              <a href="#" class="footer-category-link">liner</a>
+              <a href="#" class="footer-category-link">lipstick</a>
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="footer-nav">
+    
+          <div class="container">
+    
+            <ul class="footer-nav-list">
+    
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Popular Categories</h2>
+              </li>
+    
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Fashion</a>
+              </li>
+    
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Electronic</a>
+              </li>
+    
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Cosmetic</a>
+              </li>
+    
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Health</a>
+              </li>
+    
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Watches</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-nav-list">
+            
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Products</h2>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Prices drop</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">New products</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Best sales</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Contact us</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Sitemap</a>
+              </li>
+            
+            </ul>
+    
+            <ul class="footer-nav-list">
+            
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Our Company</h2>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Delivery</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Legal Notice</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Terms and conditions</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="./about.html" class="footer-nav-link">About us</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Secure payment</a>
+              </li>
+            
+            </ul>
+    
+            <ul class="footer-nav-list">
+            
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Services</h2>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Prices drop</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">New products</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Best sales</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Contact us</a>
+              </li>
+            
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Sitemap</a>
+              </li>
+            
+            </ul>
+    
+            <ul class="footer-nav-list">
+    
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Contact</h2>
+              </li>
+    
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="location-outline" role="img" class="md hydrated" aria-label="location outline"></ion-icon>
+                </div>
+    
+                <address class="content">
+                  419 State 414 Rte
+                  Beaver Dams, New York(NY), 14812, USA
+                </address>
+              </li>
+    
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="call outline"></ion-icon>
+                </div>
+    
+                <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+              </li>
+    
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"></ion-icon>
+                </div>
+    
+                <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-nav-list">
+    
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Follow Us</h2>
+              </li>
+    
+              <li>
+                <ul class="social-link">
+    
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+                    </a>
+                  </li>
+    
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+                    </a>
+                  </li>
+    
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
+                    </a>
+                  </li>
+    
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+                    </a>
+                  </li>
+    
+                </ul>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+        </div>
+    
+        <div class="footer-bottom">
+    
+          <div class="container">
+    
+            <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+    
+            <p class="copyright">
+              Copyright © <a href="#">Mustafa</a> all rights reserved.
+            </p>
+    
+          </div>
+    
+        </div>
+    
+      </footer> 
+      <script src="./assets/js/contact.js"></script>
+</body>
+</html>
